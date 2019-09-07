@@ -118,11 +118,22 @@ footer {
 
 #photo {
     float: left;
-    max-width: 25%;
+    max-width: 75%;
 }
 
 #photo img {
     border: 2px dashed lime;
     max-width: 100%
 }
+
+thead, tfoot{
+    background-color: purple;
+}
+
+tfoot {
+    font-weight: bolder
+}
+
+
+
 
