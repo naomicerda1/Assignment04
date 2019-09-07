@@ -1,0 +1,128 @@
+a:link, a:visited {
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline 
+}
+
+a:focus, a:hover {
+    color: darkgreen;
+    font-weight: bolder;
+    text-decoration: purple;
+}
+
+body {
+    background-color: deeppink;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 3em;
+    margin-right: 20em;
+}
+
+figcaption {
+    color: navy;
+    font-size: .9em;
+    font-style: italic;
+    text-align: left;
+}
+
+h1, h2, h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    text-shadow: lime 2px 2px 4px;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+li {
+    line-height: 1.75em;
+}
+
+main {
+    float: left;
+    max-width: 50%;
+}
+
+p {
+    line-height: 1.50em;
+    text-indent: 3em;
+}
+
+q {
+    color: black;
+    font-size: 1.25em;
+    font-style: italic;
+    line-height: 1.75em;
+}
+
+q:hover {
+    color: blueviolet;
+    text-decoration: line-through;
+}
+
+footer {
+    clear: both;
+}
+
+.songnote {
+    font-style: oblique;
+    font-size: .8em;
+}
+
+.no-indent {
+    text-indent: 0;
+}
+
+.quote {
+    text-align: center;
+}
+
+#citations {
+    border: 2px solid lawngreen;
+}
+
+#citation h2 {
+    color: black;
+}
+
+#citations {
+    color: blue;
+    font-size: .8em;
+    padding: 1em;
+}
+
+#copyright {
+    text-align: right;
+    color: yellow;
+    font-size: 1em;
+}
+
+#intro p {
+    color: black;
+    font-style: initial;
+    font-size: 1.25em;
+    text-indent: 0;
+    text-align: center;
+}
+
+#photo {
+    float: left;
+    max-width: 25%;
+}
+
+#photo img {
+    border: 2px dashed lime;
+    max-width: 100%
+}
+
